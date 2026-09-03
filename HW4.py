@@ -21,8 +21,8 @@ print(v)
 w=(math.sqrt(y))
 print(w)
 #9. Use the round function to round x to the nearest tenths place (EX: 1.17 rounds to 1.1). Print the result.
-round(x,1)
-print(x)
+q=round(x,1)
+print(q)
 #10. Use the ceiling function to round x up to the nearest whole number. Print the result.
 print(math.ceil(x))
 #11. Use the floor function to round x down to the nearest whole number. Print the result.
