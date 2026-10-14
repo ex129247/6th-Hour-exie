@@ -21,11 +21,17 @@ elif List[2]>List[0] and List[2]>List[0]:
     num=List[2]
 #5. Tie the result (the largest number) from #4 to a variable called "num".
 #6. Create a nested if statement that prints if num is divisible by 2, divisible by 3, both, or neither.
-if num%2==0:
-    print("Number is divisible by 2")
-elif num%3==0:
-    print("Number is divisible by 3")
-elif num%2==0 and num%3==0:
-    print("Number is divisible by 2 and 3")
+if num%2==0 and num%3==0:
+    print("num is divisible by 2 and 3")
 else:
-    print("Number isn't divisible by 2 and 3")
+    print("num isn't divisible by 2 and 3")
+    if num%2==0:
+        if num%3==0:
+            print("num is divisible by 3")
+    else:
+        print("num is divisible by 2")
+    if num%3==0:
+        if num%2==0:
+            print("num is divisible by 2")
+    else:
+        print("num is divisible by 3")
